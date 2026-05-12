@@ -122,6 +122,10 @@ while (choice !=5)
     default:
         cout << "Invalid choice. Please try again." <<endl;
         break;
-    
+    }
+    cout << endl;
+    }
+    return 0;
+}
      
     
