@@ -43,4 +43,9 @@ public:
             cout << "Stack is Empty" << endl;
         }
 
-        
+        Node *temp = top;
+        top = top->next;
+        cout << "Popped value : " << top->data << endl;
+    }
+
+    
