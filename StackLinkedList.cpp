@@ -14,3 +14,9 @@ public:
     }
 };
 
+//Stack Class
+class stack
+{
+private:
+    Node *top; //
+    
